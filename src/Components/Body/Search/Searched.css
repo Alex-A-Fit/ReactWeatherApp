@@ -1,0 +1,123 @@
+/* Card css */
+.cardSize{
+    width: 14vw;
+    height: 33vh;
+}
+.dayFont{
+    font-size: 2.5rem;
+    color: white;
+}
+.tempFont{
+    font-size: 2.5rem;
+    color: white;
+}
+.cardBG{
+    background: linear-gradient(rgb(55, 55, 116), rgb(88, 88, 88));
+}
+.backgroundLayer{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 110vh;
+    width: 100vw;
+}
+.whiteImg{
+    background-color: rgba(202, 197, 197, 0.5);
+    margin-left: 27%;
+}
+/* Card css ENDS*/
+
+
+/* CitySearched css */
+.goBackBtn{
+    font-size: 2.5rem;
+}
+.goBackBtn:hover{
+    color: white;
+    text-decoration: underline;
+}
+.stateFont{
+    font-size: 3rem;
+}
+.date{
+    font-size: 2rem;
+}
+.buttonPad{
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(126, 126, 126) !important;
+    border-color: rgb(126, 126, 126) !important;
+}
+.buttonPad:hover{
+    background-color: rgb(50, 50, 97) !important;
+    border-color: rgb(65, 65, 138) !important;
+}
+.buttonPad:active{
+    background-color: rgb(126, 126, 126) !important;
+    border-color: black !important;
+}
+
+.TempSize{
+    font-size: 3.5rem;
+    color: white;
+}
+.descriptionSize{
+    color: white;
+    font-size: 2.7rem;
+}
+.cardPositionInfo{
+    margin-top: 5%;
+}
+.cardPositionInfoTxt{
+    color: white;
+    font-size: 2.7rem;
+}
+.changeLink:hover{
+    color: none !important;
+    text-decoration: none !important;
+    background-color: none !important;
+}
+.CityTitle{
+    padding-right: 5%;
+}
+.currentWeather{
+    margin-left: 15%;
+}
+/* CitySearched css ENDS*/
+
+
+/* MoreInfo css */
+.moreInfoSpacing{
+    padding-left: 5%;
+}
+.moreInfoFontStyle{
+    font-size: 2.3rem;
+    color: whitesmoke;
+}
+.moreInfoForecastFont{
+    font-size: 3rem;
+    color: whitesmoke;
+    text-decoration:underline;
+}
+
+/* MoreInfo css ENDS*/
+@media only screen and (min-width: 2300px) {
+    .CityTitle{
+        padding-right: 10%;
+    }
+    .cardSize{
+        width: 13vw;
+        height: 24vh;
+    }
+    .whiteImg{
+        background-color: rgba(202, 197, 197, 0.5);
+        margin-left: 32%;
+        margin-bottom: 10%;
+    }
+  }
+
+  @media only screen and (min-width: 2300px) {
+    .backgroundLayer{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+    }
+  }

@@ -1,0 +1,15 @@
+/*Home body css below */
+.removeAllSpacing{
+    padding: 0!important;
+    margin: 0!important;
+}
+.white{
+    color: white;
+}
+.bodyBG{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Home body css ends */

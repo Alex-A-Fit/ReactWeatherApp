@@ -1,0 +1,122 @@
+.removeAllSpacing{
+    padding: 0!important;
+    margin: 0!important;
+}
+.searchIconBG{
+    background-color: rgb(210, 206, 214);
+    color: black;
+}
+.buttonSize{
+    width: 60px;
+    height: 60px;
+}
+
+.searchIconSize{
+    width: 40px;
+    height: auto;
+}
+.navBG{
+    background-color: rgb(214, 214, 213, 0.3);
+
+}
+
+.title{
+   padding-left: 8%;
+}
+.white{
+    color: whitesmoke;
+}
+
+.favoriteModalTitle{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    /* background-image: url(../Pictures/rainyBG.jpg);
+    background-position-y: 38%;
+    background-position-x: 47%; */
+    background: linear-gradient(rgb(55, 55, 116), rgb(88, 88, 88));
+    border-bottom: none;
+}
+.favoriteModalBody{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(55, 55, 116), rgb(88, 88, 88));
+    /* background-image: url(../Pictures/rainyBG.jpg);
+    background-position: center; */
+}
+
+.removeDot{
+   list-style: none;
+}
+
+.listStyling{
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2%;
+    color: white;
+}
+
+/*All BGS Below*/
+.starterBG{
+    background-image: url(../Pictures/LakeBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.Clouds{
+    background-image: url(../Pictures/cloudyBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.Fog{
+    background-image: url(../Pictures/FogBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.Rain{
+    background-image: url(../Pictures/rainyBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.Snow{
+    background-image: url(../Pictures/snowBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.Thunderstorm{
+    background-image: url(../Pictures/stormyBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.Clear{
+    background-image: url(../Pictures/sunnyBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
